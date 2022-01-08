@@ -1,5 +1,5 @@
 
- const questions = [
+ const questionAssets = [
         {
             id: "1",
             question: "How do I feel at this moment?",
@@ -24,5 +24,5 @@
         },
 
     ]
-export default questions;
+export default questionAssets;
 

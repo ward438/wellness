@@ -4,36 +4,22 @@ import Button from 'react-bootstrap/Button'
 import { useState } from 'react'
 import WellnessQuestions from './wellnessCard'
 import Container from 'react-bootstrap/Container'
-import {createSlice} from 'redux'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { useDispatch } from "react-redux";
+import { questions } from '../reducers/questions';
 
 
-
-
-
-
-
-function WellnessModal() {
+const WellnessModal = () => {
     const [show, setShow] = useState(false);
-    const [showButton, setShowButton] = useState(false);
-    console.log(show)
-    console.log(showButton)
-
-    const handleButtonShow = () => {
-        
-        if (showButton === false && show === false) {
-            setShowButton(false)
-            setShow(true)
-        } return
+    const dispatch = useDispatch();
+    const startQuestions = ()=>{
+        setShow(true);
+        // takes in the questions reducer and uses the start function in the actions
+        dispatch(questions.actions.start());
     }
-
     return (
         <>
             <Container >
-                {showButton === false ? (<Button variant="primary" onClick={() => handleButtonShow()} >  Wellness Questions
-                </Button>) : null
-                }
-
+                <Button variant="primary" onClick={startQuestions} >  Wellness Questions</Button>
             </Container>
             <Modal
                 show={show}
@@ -42,7 +28,7 @@ function WellnessModal() {
                 aria-labelledby="example-custom-modal-styling-title"
             >
                 <Modal.Body>
-                    <WellnessQuestions />
+                    <WellnessQuestions onSubmit={()=>setShow(false)}/>
                 </Modal.Body>
             </Modal>
         </>
