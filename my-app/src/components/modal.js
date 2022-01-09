@@ -21,7 +21,7 @@ const WellnessModal = () => {
         <>
             <Container style={{marginTop: '10px'}} >
                 <Row>
-                    <Button variant="primary" onClick={startQuestions} >  Wellness Questions</Button>
+                    <Button variant="primary" onClick={startQuestions} >  Begin Wellness Questions</Button>
                 </Row>
 
             </Container>

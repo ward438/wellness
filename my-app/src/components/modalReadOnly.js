@@ -37,7 +37,7 @@ const WellnessModalReadOnly = () => {
                     </Col>
                 </Modal.Body>
             </Modal>
-            <Navbar expand="lg" variant="light" bg="light" style={{ border: '1px solid black', }}>
+            <Navbar expand="lg" variant="light" bg="light" style={{ border: '1px solid black', cursor: 'initial' }}>
                 <Container >
                     <Navbar.Brand href="#" style={{ borderRadius: '3px' }}>How are you feeling today ?</Navbar.Brand>
                 </Container>
