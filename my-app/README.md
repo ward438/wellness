@@ -26,4 +26,6 @@ Builds app and deploys to Amazon S3 bucket.
 
 ### <a href='http://wnessbucket.s3-website-us-east-1.amazonaws.com'> Wellness Questionnaire </a>
 
+<img src="https://github.com/ward438/wellness/blob/main/modal_entry.png?raw=true" alt="landing"
+width="500px"/>
 
