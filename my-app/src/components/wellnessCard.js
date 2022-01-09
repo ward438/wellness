@@ -16,8 +16,8 @@ export const WellnessCard = ({ question, onChange, answer }) => {
             <Card.Text>
                 {question.question}                   
             </Card.Text>
-            {onChange !== undefined && <Form.Control size="lg" type="text" placeholder="Large text" onChange={(e)=>onChange(e.target.value)}/>}            
-            {answer !== undefined && <Form.Control size="lg" type="text" placeholder="Large text" value={answer} readOnly={true}/>}            
+            {onChange !== undefined && <Form.Control size="lg" type="text" placeholder="" onChange={(e)=>onChange(e.target.value)}/>}            
+            {answer !== undefined && <Form.Control size="lg" type="text" placeholder="" value={answer} readOnly={true}/>}            
         </Card.Body>
     </Card>
 }
@@ -42,8 +42,8 @@ const WellnessQuestions = ({onSubmit}) => {
         <Row className="questionCard" style={{ border: '1px solid black', width: '100%', padding: '10px' }}>
             {questionAssets.map((question, index) => <WellnessCard key={question.id} onChange={(answer)=>{updateAnswer(index, answer)}} header={question.boolean} question={question} button={'button'} date={'date'} readOnly={'readOnly'} />)}
             <Col>
-                <Container style={{ display: 'flex', justifyContent: 'center', }}>
-                    <Button variant="primary" style={{ width: '20em' }} onClick={()=>{saveAnswers()}}>Submit</Button>
+                <Container >
+                    <Button variant="primary" style={{ width: '100%', marginTop: '10px' }} onClick={()=>{saveAnswers()}}>Submit</Button>
                 </Container>
             </Col>
         </Row>

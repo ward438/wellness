@@ -1,9 +1,9 @@
 import './App.css';
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import WellnessModal from './components/modal';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import WellnessModalReadOnly from './components/modalReadOnly';
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { questions } from './reducers/questions';
 
 function App() { 
@@ -13,7 +13,9 @@ function App() {
     dispatch(questions.actions.setAllQuestions(JSON.parse(localStorage.getItem("questionnaires")) || []));
 }, []);
   return (
-    <div style={{ position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
+    <div
+     style={{ position: 'fixed', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
+     >
       <WellnessModalReadOnly />
       <WellnessModal />
 
