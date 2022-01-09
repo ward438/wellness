@@ -24,6 +24,6 @@ The build is minified and the filenames include the hashes.
 ### `npm run deploy`
 Builds app and deploys to Amazon S3 bucket.
 
-<a href='http://wnessbucket.s3-website-us-east-1.amazonaws.com'> Wellness Questionnaire </a>
+### <a href='http://wnessbucket.s3-website-us-east-1.amazonaws.com'> Wellness Questionnaire </a>
 
 
