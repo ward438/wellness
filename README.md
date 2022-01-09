@@ -9,13 +9,14 @@ User may view history of past questionnaires as a read only modal.
 ## Available Scripts
 In the project directory, you can run:
 
-### `npm start`
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-The page will reload when you make changes.
+### `npm i`
+Installs required dependencies.
+
 
 ### `npm run start`
 Launches the test runner in the interactive watch mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The page will reload when you make changes.
 
 ### `npm run build`
 Builds the app for production to the `build` folder.
