@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Wellness Questionnaire
 This wellness app will provide the user with a series of wellness questions presented in a modal.
 User may enter answers into provided inputs.
 Once saved, updated information is presented in the table with time since completed.
