@@ -28,7 +28,7 @@ Builds app and deploys to Amazon S3 bucket.
 
 Questionnaire Table
 <img src="https://github.com/ward438/wellness/blob/main/questionnaire_table.png" alt="questionnaireTable"
-width="500px"/>
+width="500px"/> <br/>
 
 Modal Entry Form
 <img src="https://github.com/ward438/wellness/blob/main/modal_entry.png?raw=true" alt="entryForm"
