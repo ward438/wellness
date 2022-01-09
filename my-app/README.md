@@ -1,5 +1,5 @@
 # Wellness Questionnaire
-<a href='http://wnessbucket.s3-website-us-east-1.amazonaws.com///'> Wellness Questionnaire </a>
+
 This wellness app will provide the user with a series of wellness questions presented in a modal.
 User may enter answers into provided inputs.
 Once saved, updated information is presented in the table with time since completed.
@@ -24,6 +24,6 @@ The build is minified and the filenames include the hashes.
 ### `npm run deploy`
 Builds app and deploys to Amazon S3 bucket.
 
-
+<a href='http://wnessbucket.s3-website-us-east-1.amazonaws.com///'> Wellness Questionnaire </a>
 
 
