@@ -26,6 +26,23 @@ Builds app and deploys to Amazon S3 bucket.
 
 ### <a href='http://wnessbucket.s3-website-us-east-1.amazonaws.com'> Wellness Questionnaire </a>
 
-<img src="https://github.com/ward438/wellness/blob/main/modal_entry.png?raw=true" alt="landing"
+Questionnaire Table
+<img src="https://github.com/ward438/wellness/blob/main/questionnaire_table.png" alt="questionnaireTable"
 width="500px"/>
+
+Modal Entry Form
+<img src="https://github.com/ward438/wellness/blob/main/modal_entry.png?raw=true" alt="entryForm"
+width="500px"/>
+
+Read only answer modal
+<img src="https://github.com/ward438/wellness/blob/main/read_only_modal.png" alt="landing"
+width="500px"/>
+
+Local Storage
+<img src="https://github.com/ward438/wellness/blob/main/local_storage.png" alt="localStorage"
+width="500px"/>
+
+
+
+
 
